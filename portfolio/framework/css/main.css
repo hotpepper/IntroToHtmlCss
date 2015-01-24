@@ -1,7 +1,8 @@
+/*
 * {
     border: 1px solid red !important;
 }
-
+*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,6 +16,17 @@
 }
 *{
 	font-family: 'Raleway', sans-serif;
+}
+.bottom_image{
+	padding: 1%;
+	margin: 1%;
+}
+
+
+.label{
+	text-align: center;
+	width: 100%;
+	margin: 1%;
 }
 .grid {
     margin: 0 auto;
@@ -42,6 +54,8 @@
 
 .col-4 {
     width: 33.33%;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 .col-5 {
